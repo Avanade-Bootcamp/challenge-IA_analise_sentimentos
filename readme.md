@@ -77,89 +77,90 @@ Resultado:
 
 ```json
 {
-    "documents": [
-        {
-            "id": "1",
-            "sentiment": "negative",
-            "confidenceScores": {
-                "positive": 0.02,
-                "neutral": 0.2,
-                "negative": 0.78
-            },
-            "sentences": [
-                {
-                    "sentiment": "neutral",
-                    "confidenceScores": {
-                        "positive": 0.14,
-                        "neutral": 0.82,
-                        "negative": 0.04
-                    },
-                    "offset": 0,
-                    "length": 110,
-                    "text": "Se vc quiser comer as tortilhas com molho, que é o certo em todo restaurante mexicano, tem que pagar a parte. "
-                },
-                {
-                    "sentiment": "negative",
-                    "confidenceScores": {
-                        "positive": 0.05,
-                        "neutral": 0.24,
-                        "negative": 0.71
-                    },
-                    "offset": 110,
-                    "length": 45,
-                    "text": "Cobram caro em um pingo de molho, um roubo.. "
-                },
-                {
-                    "sentiment": "negative",
-                    "confidenceScores": {
-                        "positive": 0.0,
-                        "neutral": 0.02,
-                        "negative": 0.98
-                    },
-                    "offset": 155,
-                    "length": 63,
-                    "text": "totalmente desproporcional ao tamanho da porção de tortilhas.. "
-                },
-                {
-                    "sentiment": "neutral",
-                    "confidenceScores": {
-                        "positive": 0.01,
-                        "neutral": 0.68,
-                        "negative": 0.32
-                    },
-                    "offset": 218,
-                    "length": 84,
-                    "text": "e pedi um combo que não veio nenhum molho também, nem no taco e nem na quesadilha.. "
-                },
-                {
-                    "sentiment": "negative",
-                    "confidenceScores": {
-                        "positive": 0.02,
-                        "neutral": 0.47,
-                        "negative": 0.52
-                    },
-                    "offset": 302,
-                    "length": 29,
-                    "text": "nunca vi isso, comida seca . "
-                },
-                {
-                    "sentiment": "negative",
-                    "confidenceScores": {
-                        "positive": 0.0,
-                        "neutral": 0.07,
-                        "negative": 0.92
-                    },
-                    "offset": 331,
-                    "length": 27,
-                    "text": "Não tenho vontade de voltar"
-                }
-            ],
-            "warnings": []
-        }
-    ],
-    "errors": [],
-    "modelVersion": "2025-01-01"
+    "documents": [
+        {
+            "id": "1",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.02,
+                "neutral": 0.20,
+                "negative": 0.78
+            },
+            "sentences": [
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.14,
+                        "neutral": 0.82,
+                        "negative": 0.04
+                    },
+                    "offset": 0,
+                    "length": 110,
+                    "text": "Se você quiser comer as tortilhas com molho, que é o certo em todo restaurante mexicano, tem que pagar à parte."
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.05,
+                        "neutral": 0.24,
+                        "negative": 0.71
+                    },
+                    "offset": 110,
+                    "length": 45,
+                    "text": "Cobram caro em um pingo de molho, um roubo..."
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.00,
+                        "neutral": 0.02,
+                        "negative": 0.98
+                    },
+                    "offset": 155,
+                    "length": 63,
+                    "text": "Totalmente desproporcional ao tamanho da porção de tortilhas."
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.68,
+                        "negative": 0.32
+                    },
+                    "offset": 218,
+                    "length": 84,
+                    "text": "Pedi um combo que não veio com nenhum molho também, nem no taco e nem na quesadilla."
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.47,
+                        "negative": 0.52
+                    },
+                    "offset": 302,
+                    "length": 29,
+                    "text": "Nunca vi isso, comida seca."
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.00,
+                        "neutral": 0.07,
+                        "negative": 0.92
+                    },
+                    "offset": 331,
+                    "length": 27,
+                    "text": "Não tenho vontade de voltar."
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2025-01-01"
 }
+
 ```
 
 Com isso, conseguimos analisar que além da media geral do cliente, a IA faz uma avaliação isolada para cada sentença do texto, dando notas isolada para cada afirmação e classificando se o sentimento foi **Positivo**, **Neutro** ou **Negativo**.
