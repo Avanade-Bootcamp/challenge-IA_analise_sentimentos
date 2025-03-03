@@ -21,7 +21,8 @@ Neste desafio, a plataforma https://language.cognitive.azure.com/ estava com err
 ## ⚓ Language cognitive via API
 
 Basta acessar a plataforma **Develop** do recurso criado, e lá estarão todas as informações para acesso.
-![[Pasted image 20250303120105.png]]
+![image](https://github.com/user-attachments/assets/c1c4f859-bf98-41bd-be4b-d3a4f82bb21b)
+
 Todavia, não há uma documentacao com todas as rotas que podem ser consumidas ou como realizar a requisicao autenticada. Por isso, estarei deixando uma tabela abaixo com as rotas e o header mesário para fazer uma requisição autenticada.
 
 ```json
@@ -47,28 +48,28 @@ Todavia, não há uma documentacao com todas as rotas que podem ser consumidas o
 
 ```json
 {
-    "documents": [
-        {
-            "id": "1",
-            "text": "Se vc quiser comer as tortilhas com molho, que é o certo em todo restaurante mexicano, tem que pagar a parte. Cobram caro em um pingo de molho, um roubo.. totalmente desproporcional ao tamanho da porção de tortilhas.. e pedi um combo que não veio nenhum molho também, nem no taco e nem na quesadilha.. nunca vi isso, comida seca . Não tenho vontade de voltar"
-        },
-        {
-            "id": "2",
-            "text": "Achei simplesmente maravilhoso,  recomendo. O atendimento foi o melhor que já vi naquela praça de alimentação. Quanto a comida .... Coisa mais deliciosa, eu amo o burrito de costelinha BBQ e a tortilha de kit kat não tem pra ninguém.  Outra vez fui comer o burrito Giga, esse é pra quem come bastante mesmo. Meus parabéns."
-        },
-        {
-            "id": "3",
-            "text": "A comida estava deliciosa, e o ambiente muito acolhedor. Fui jantar com amigos e todos adoraram as opções do menu."
-        },
-        {
-            "id": "4",
-            "text": "O atendimento foi péssimo, a comida estava fria e sem gosto. Não recomendo."
-        },
-        {
-            "id": "5",
-            "text": "O atendimento foi muito bom, a comida estava deliciosa e o ambiente muito agradável. Recomendo."
-        }
-    ]
+    "documents": [
+        {
+            "id": "1",
+            "text": "Se vc quiser comer as tortilhas com molho, que é o certo em todo restaurante mexicano, tem que pagar a parte. Cobram caro em um pingo de molho, um roubo.. totalmente desproporcional ao tamanho da porção de tortilhas.. e pedi um combo que não veio nenhum molho também, nem no taco e nem na quesadilha.. nunca vi isso, comida seca . Não tenho vontade de voltar"
+        },
+        {
+            "id": "2",
+            "text": "Achei simplesmente maravilhoso, recomendo. O atendimento foi o melhor que já vi naquela praça de alimentação. Quanto a comida .... Coisa mais deliciosa, eu amo o burrito de costelinha BBQ e a tortilha de kit kat não tem pra ninguém. Outra vez fui comer o burrito Giga, esse é pra quem come bastante mesmo. Meus parabéns."
+        },
+        {
+            "id": "3",
+            "text": "A comida estava deliciosa, e o ambiente muito acolhedor. Fui jantar com amigos e todos adoraram as opções do menu."
+        },
+        {
+            "id": "4",
+            "text": "O atendimento foi péssimo, a comida estava fria e sem gosto. Não recomendo."
+        },
+        {
+            "id": "5",
+            "text": "O atendimento foi muito bom, a comida estava deliciosa e o ambiente muito agradável. Recomendo."
+        }
+    ]
 }
 ```
 
@@ -165,11 +166,11 @@ Com isso, conseguimos analisar que além da media geral do cliente, a IA faz uma
 
 ## 🖼 Imagens de todas as sentenças 
 
-![[Pasted image 20250303121627.png]]
-
-
-
-
+![image](https://github.com/user-attachments/assets/e71babdc-8f40-466e-bc77-fd0de29e967e)
+![image](https://github.com/user-attachments/assets/ade6bd20-1867-4e22-98cb-4bdd37a1d393)
+![image](https://github.com/user-attachments/assets/c8ee2b77-5eb2-4901-aea5-7497694780ad)
+![image](https://github.com/user-attachments/assets/6b07e553-1627-420a-8862-ca1132927afd)
+![image](https://github.com/user-attachments/assets/33ecd85b-048f-4294-97ce-3d0bef190061)
 
 ---
 :pushpin: **Nota:** Este projeto foi desenvolvido para fins educacionais e de aprimoramento técnico.
